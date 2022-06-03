@@ -10,9 +10,7 @@ function startGame() {
 }
 
 function showTextNode(textNodeIndex) {
-//textNodes is an array of objects
-//The find() method returns the value of the first element that passes a test.
-//The find() method executes a function for each array element.
+
 
   const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
   textElement.innerText = textNode.text
